@@ -1,0 +1,28 @@
+Paul Passiglia
+cs_4280
+P4 Code Generation
+
+Local Option chosen.
+
+Known issues:
+test5 throws a scope error, does not like y variable
+
+To run program type:
+
+make
+
+then type:
+
+./compfs filename.fs
+
+(this will generate filname.asm)
+
+To clean .o files type:
+ 
+make clean
+
+To clean the .exe file type:
+
+make outclean
+
+Filename must have a .fs extension to be parsed.
